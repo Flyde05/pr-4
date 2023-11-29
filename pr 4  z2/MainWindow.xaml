@@ -1,0 +1,26 @@
+﻿<Window x:Class="pr_4__z2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pr_4__z2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Введите масть пики-1 трефы-2 бубны-3 червы-4" Height="32" Margin="0,10,175,175"></TextBlock>
+        <TextBlock Text="Введите достоинство карты, выше десятки 11-14" VerticalAlignment="Bottom" Height="32" Margin="0,0,175,123"></TextBlock>
+        <TextBox x:Name="N" Height="32" Margin="230,10,70,175"></TextBox>
+        <TextBox x:Name="M" Height="32" Margin="230,62,70,123"/>
+        <Button Click="Button_Click" Height="32" Margin="0,89,304,96" Foreground="#fff6a5">Решить</Button>
+        <TextBlock x:Name="res1" Height="32" Margin="335,10,9,175"/>
+        <TextBlock x:Name="res2" Height="32" Margin="335,62,9,123"/>
+    </Grid>
+</Window>
